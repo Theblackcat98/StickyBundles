@@ -2835,6 +2835,10 @@ img, video {
   stroke: hsl(var(--heroui-default-300) / .5);
 }
 
+.stroke-transparent {
+  stroke: #0000;
+}
+
 .object-cover {
   -o-object-fit: cover;
   object-fit: cover;
@@ -9651,10 +9655,6 @@ img, video {
 
 .\[\&\>\*\]\:relative > * {
   position: relative;
-}
-
-.\[\&\>path\]\:stroke-transparent > path {
-  stroke: #0000;
 }
 
 .\[\&\>svg\]\:max-w-\[theme\(spacing\.8\)\] > svg {

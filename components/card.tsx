@@ -1,6 +1,15 @@
 import React from "react";
 import {Card, CardBody, Image, Button, Slider} from "@heroui/react";
 
+interface IconProps {
+  size?: number;
+  width?: number;
+  height?: number;
+  strokeWidth?: number;
+  fill?: string;
+  className?: string;
+}
+
 export const HeartIcon = ({
   size = 24,
   width,
@@ -8,7 +17,7 @@ export const HeartIcon = ({
   strokeWidth = 1.5,
   fill = "none",
   ...props
-}) => {
+}: IconProps) => {
   return (
     <svg
       aria-hidden="true"
@@ -31,7 +40,7 @@ export const HeartIcon = ({
   );
 };
 
-export const PauseCircleIcon = ({size = 24, width, height, ...props}) => {
+export const PauseCircleIcon = ({size = 24, width, height, ...props}: IconProps) => {
   return (
     <svg
       aria-hidden="true"
@@ -51,7 +60,7 @@ export const PauseCircleIcon = ({size = 24, width, height, ...props}) => {
   );
 };
 
-export const NextIcon = ({size = 24, width, height, ...props}) => {
+export const NextIcon = ({size = 24, width, height, ...props}: IconProps) => {
   return (
     <svg
       aria-hidden="true"
@@ -75,7 +84,7 @@ export const NextIcon = ({size = 24, width, height, ...props}) => {
   );
 };
 
-export const PreviousIcon = ({size = 24, width, height, ...props}) => {
+export const PreviousIcon = ({size = 24, width, height, ...props}: IconProps) => {
   return (
     <svg
       aria-hidden="true"
@@ -99,7 +108,7 @@ export const PreviousIcon = ({size = 24, width, height, ...props}) => {
   );
 };
 
-export const RepeatOneIcon = ({size = 24, width, height, ...props}) => {
+export const RepeatOneIcon = ({size = 24, width, height, ...props}: IconProps) => {
   return (
     <svg
       aria-hidden="true"
@@ -127,7 +136,7 @@ export const RepeatOneIcon = ({size = 24, width, height, ...props}) => {
   );
 };
 
-export const ShuffleIcon = ({size = 24, width, height, ...props}) => {
+export const ShuffleIcon = ({size = 24, width, height, ...props}: IconProps) => {
   return (
     <svg
       aria-hidden="true"
@@ -192,7 +201,7 @@ export default function App() {
                 onPress={() => setLiked((v) => !v)}
               >
                 <HeartIcon
-                  className={liked ? "[&>path]:stroke-transparent" : ""}
+                  className={liked ? "stroke-transparent" : ""}
                   fill={liked ? "currentColor" : "none"}
                 />
               </Button>
