@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "/about/page": [
+      "static/chunks/[root of the server]__e2ab11._.css",
+      "static/chunks/node_modules_next_302e3c._.js",
+      "static/chunks/node_modules_@react-aria_1bfc55._.js",
+      "static/chunks/node_modules_framer-motion_dist_es_90e399._.js",
+      "static/chunks/node_modules_@react-aria_cdc7a2._.js",
+      "static/chunks/node_modules_fe71af._.js",
+      "static/chunks/_9b5d1d._.js",
+      "static/chunks/node_modules_@heroui_dom-animation_dist_index_mjs_af5faf._.js",
+      "static/chunks/app_layout_tsx_d96937._.js",
+      "static/chunks/app_error_tsx_6c72c3._.js",
+      "static/chunks/app_error_tsx_9a2346._.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_1f56dc._.js",
+      "static/chunks/node_modules_next_dist_compiled_107ce8._.js",
+      "static/chunks/node_modules_next_dist_client_9bb038._.js",
+      "static/chunks/node_modules_next_dist_d09de6._.js",
+      "static/chunks/ed0b0_@swc_helpers_cjs_d9e50e._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d044fa._.js",
+      "static/chunks/_c4c472._.js",
+      "static/chunks/_4f56ab._.js"
+    ]
+  }
+}
