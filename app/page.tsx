@@ -12,7 +12,7 @@ import {
   ModalBody,
   ModalFooter,
   useDisclosure,
-} from "@heroui/react"; // Import Modal components and hook
+} from "@heroui/modal"; // Import Modal components and hook
 import solar, {
   HamburgerMenu,
   Pulse2,
